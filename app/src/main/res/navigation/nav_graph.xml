@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.learningdashboardmobileapplication.ui.login.LoginFragment"
+        android:label="@string/login_screen_title"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.learningdashboardmobileapplication.ui.dashboard.DashboardFragment"
+        android:label="@string/dashboard_screen_title"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_courseDetailsFragment"
+            app:destination="@id/courseDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseDetailsFragment"
+        android:name="com.example.learningdashboardmobileapplication.ui.details.CourseDetailsFragment"
+        android:label="@string/course_detail_screen_title"
+        tools:layout="@layout/fragment_course_details">
+
+        <argument
+            android:name="course_id"
+            app:argType="integer" />
+    </fragment>
+</navigation>

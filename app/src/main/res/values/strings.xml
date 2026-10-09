@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Learning Dashboard mobile application</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_screen_title">Login</string>
+    <string name="dashboard_screen_title">Course Dashboard</string>
+    <string name="course_detail_screen_title">Course Detail</string>
+    <string name="course_progress_format">Progress: %1$d%%</string>
+    <string name="dashboard_instructor_format">Instructor: %1$s</string>
+    <string name="dashboard_progress_format">Progress: %1$d%%</string>
+    <string name="dashboard_lessons_format">Lessons: %1$d</string>
+    <string name="dashboard_continue">Continue</string>
+    <string name="lessons_title">Lessons</string>
+    <string name="retry">Retry</string>
+    <string name="default_login_email">demo@example.com</string>
+    <string name="default_login_password">demo1234</string>
+    <string name="default_login_hint">Use %1$s / %2$s to log in</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+</resources>
